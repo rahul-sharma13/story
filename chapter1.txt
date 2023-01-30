@@ -1,1 +1,13 @@
 this is the chapter 1. Which we created. 
+
+WORKING DIRECTORY - story directory (currently in our use).
+
+GIT STATUS : shows the files which are in the directory but not in the staging area. 
+
+GIT ADD FILENAME : to add file to stage. (to start tracking changes in file.)
+
+git commit -m : (-m to add a commit message)  
+
+//commnit message is imp as it helps you keep track of what changes you have made in each commit.
+
+git log : to check. 
