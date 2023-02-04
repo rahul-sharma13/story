@@ -1,6 +1,6 @@
 this is the chapter 1. Which we created. 
 
-WORKING DIRECTORY - story directory (currently in our use).
+WORKING DIRECTORY - story directory (currently in our use). [where we used git init command].
 
 GIT STATUS : shows the files which are in the directory but not in the staging area. 
 
@@ -11,3 +11,30 @@ git commit -m : (-m to add a commit message)
 //commnit message is imp as it helps you keep track of what changes you have made in each commit.
 
 git log : to check. 
+
+git add . : to add every file in current directory to staging area.
+
+git checkout filename : to revert back or rollback to the last position in local repository.
+
+git diff filename : to see the difference between the last and current saved. 
+
+git remote add origin https://github.com/rahul-sharma13/story.git : to push to github.
+
+git push -u origin master : pushes your local repository to the remote repository using u flag(which basically links up your local and remote repository).
+
+HERE , origin ---> Name of remote 
+       master ---> Name of branch 
+
+MASTER BRANCH ---> is your main branch of commits or save points and it is sequential . 
+
+touch .gitignore --->
+
+git rm --cached -r . ---> to unstage the files. 
+
+FOR GITIGNORE - 
+ 	make a new file .gitignore and put the file name in it that you want to be ignored and even *.txt type commands can be used to ignore files with the extension .txt 
+
+git branch <name> ---> to add another branch.
+
+git checkout <name> ---> to switch the branch.
+
